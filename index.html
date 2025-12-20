@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="Discription" content ="Premium furniture with strong quality and elegant design that makes your home stand out."
+  <title>MALKA & SONS — Premium Furniture</title>
+
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;700;900&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+  <div class="app">
+    <!-- Header -->
+    <header class="site-header">
+      <div class="brand">
+        <div class="logo">
+          <span class="mark">M</span>
+        </div>
+        <div>
+          <h1>MALKA & SONS</h1>
+          <p class="small">Proprietor: Jamaluddin — Luxury Furniture</p>
+        </div>
+      </div>
+
+      <div class="header-actions">
+        <button id="themeToggle" class="btn-ghost">🌙</button>
+      </div>
+    </header>
+
+    <!-- Hero -->
+    <main>
+      <section class="hero">
+        <div class="hero-inner">
+          <h2 class="hero-title">Bring Home Timeless Luxury</h2>
+          <p class="hero-sub">Premium handcrafted furniture — beds, sofas, dining sets & more. Built to last, designed to impress.</p>
+          <div class="hero-ctas">
+            <a href="#products" class="btn-primary">Explore Products</a>
+            <a href="#contact" class="btn-outline">Contact Us</a>
+          </div>
+        </div>
+
+        <!-- decorative animated gradient / shapes -->
+        <div class="hero-decor">
+          <span class="shape s1"></span>
+          <span class="shape s2"></span>
+          <span class="shape s3"></span>
+        </div>
+      </section>
+
+<!-- Products -->
+      <section id="products" class="section products">
+        <div class="container">
+          <h3 class="section-title">Featured Furniture</h3>
+          <p class="section-sub">Hand-picked range — premium finishes, durable materials.</p>
+
+          <div class="grid">
+            <!-- Card 1 -->
+            <article class="card" data-product="King Size Bed">
+              <div class="card-media">
+                <img loading="lazy" src="https://images.unsplash.com/photo-1611048268428-c7dddc465ee7?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTcwfHxjb2xvciUyMGZ1bGwlMjBiZWQlMjBkZXNpZ258ZW58MHx8MHx8fDA%3D?auto=format&fit=crop&w=1400&q=80" alt="King Size Bed - Malka & Sons">
+              </div>
+              <div class="card-body">
+                <h4>King Size Bed</h4>
+                <p>Solid wood frame with premium upholstery — sleep like royalty.</p>
+                <div class="card-meta">
+                  <span class="price">₹24,999</span>
+                  <button class="btn-buy" onclick="buyNow('King Size Bed')">Buy Now</button>
+                </div>
+              </div>
+            </article>
+
+            <!-- Card 2 -->
+            <article class="card" data-product="Sofa Set">
+              <div class="card-media">
+                <img loading="lazy" src="https://images.unsplash.com/photo-1637747022660-12ce5ce4e420?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D?auto=format&fit=crop&w=1400&q=80" alt="Sofa Set - Malka & Sons">
+              </div>
+              <div class="card-body">
+                <h4>Sofa Set</h4>
+                <p>Luxurious 3-seater sofa set with resilient cushions & rich fabric.</p>
+                <div class="card-meta">
+                  <span class="price">₹34,500</span>
+                  <button class="btn-buy" onclick="buyNow('Sofa Set')">Buy Now</button>
+                </div>
+              </div>
+            </article>
+
+            <!-- Card 3 -->
+            <article class="card" data-product="Dining Table">
+              <div class="card-media">
+                <img loading="lazy" src="https://images.unsplash.com/photo-1746439323248-53f4797638cd?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTE2fHxkaW5uaW5nJTIwdGFibGUlMjByb29tfGVufDB8fDB8fHww alt="Dining Table - Malka & Sons">
+              </div>
+              <div class="card-body">
+                <h4>Dining Table</h4>
+                <p>Elegant dining table for family gatherings — oak finish.</p>
+                <div class="card-meta">
+                  <span class="price">₹18,750</span>
+                  <button class="btn-buy" onclick="buyNow('Dining Table')">Buy Now</button>
+                </div>
+              </div>
+            </article>
+
+            <!-- Card 4 -->
+            <article class="card" data-product="Wardrobe">
+              <div class="card-media">
+                <img loading="lazy" src="https://plus.unsplash.com/premium_photo-1670076515866-73822a3d610d?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3Dhttps://images.unsplash.com/photo-1582582494700-b6c9f33e851c?auto=format&fit=crop&w=1400&q=80" alt="Wardrobe - Malka & Sons">
+              </div>
+              <div class="card-body">
+                <h4>Wardrobe</h4>
+                <p>Smart storage wardrobe with smooth sliders and modular interior.</p>
+                <div class="card-meta">
+                  <span class="price">₹22,400</span>
+                  <button class="btn-buy" onclick="buyNow('Wardrobe')">Buy Now</button>
+                </div>
+              </div>
+            </article>
+
+            <!-- Card 5 -->
+            <article class="card" data-product="Office Chair">
+              <div class="card-media">
+                <img loading="lazy" src="https://plus.unsplash.com/premium_photo-1683141419137-db47132b8df4?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90byoto-1601979031057-61bdf85f1b56?auto=format&fit=crop&w=1400&q=80" alt="Office Chair - Malka & Sons">
+              </div>
+              <div class="card-body">
+                <h4>Office Chair</h4>
+                <p>Ergonomic chair with lumbar support — comfort for long hours.</p>
+                <div class="card-meta">
+                  <span class="price">₹6,999</span>
+                  <button class="btn-buy" onclick="buyNow('Office Chair')">Buy Now</button>
+                </div>
+              </div>
+            </article>
+            <!-- Card 3 -->
+            <article class="card" data-product="Dining Table">
+              <div class="card-media">
+              <img loading="lazy" src="https://images.unsplash.com/photo-1746439323242-4d45b124b9bf?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8VFYlMjB1bml0JTIwZnVybml0dXJlJTIwZGVzaWdufGVufDB8fDB8fHww alt="Dining Table - Malka & Sons">
+              </div>
+              <div class="card-body">
+                <h4>Furniture Table</h4>
+                <p>Elegant Furniture Table for family gatherings — oak finish.</p>
+                <div class="card-meta">
+                  <span class="price">₹10,500</span>
+                  <button class="btn-buy" onclick="buyNow('Furniture Table')">Buy Now</button>
+                </div>
+              </div>
+            </article>
+            
+               <!-- Card 3 -->
+            <article class="card" data-product="TV Unit">
+              <div class="card-media">
+                <img loading="lazy" src="https://plus.unsplash.com/premium_photo-1664302223105-5e1818f48359?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OTJ8fFRWJTIwdW5pdCUyMGZ1cm5pdHVyZSUyMGRlc2lnbnxlbnwwfHwwfHx8MA%3D%3D alt="Dining Table - Malka & Sons">
+               </div>
+              <div class="card-body">
+                <h4>TV Unit</h4>
+                <p>Elegant TV Unit Furniture table for family gatherings — oak finish.</p>
+                <div class="card-meta">
+                  <span class="price">₹18,750</span>
+                  <button class="btn-buy" onclick="buyNow('TV Unit')">Buy Now</button>
+                </div>
+              </div>
+            </article>
+
+            <!-- Card 6 -->
+            <article class="card" data-product="Dressing Table">
+              <div class="card-media">
+                <img loading="lazy" src="https://images.unsplash.com/photo-1617104424032-b9bd6972d0e4?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDd8fHxlbnwwfHx8fHw%3D?auto=format&fit=crop&w=1400&q=80" alt="Dressing Table - Malka & Sons">
+              </div>
+              <div class="card-body">
+                <h4>Dressing Table</h4>
+                <p>Classic dressing table with illuminated mirror & drawers.</p>
+                <div class="card-meta">
+                  <span class="price">₹9,499</span>
+                  <button class
+                ="btn-buy" onclick="buyNow('Dressing Table')">Buy Now</button>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- About / Values -->
+      <section class="section about">
+        <div class="container">
+          <h3 class="section-title">Why Choose MALKA & SONS</h3>
+          <div class="values">
+            <div class="value">
+              <strong>Craftsmanship</strong>
+              <p>Decades of experience — each piece is inspected and finished by hand.</p>
+            </div>
+            <div class="value">
+              <strong>Premium Materials</strong>
+              <p>Selected hardwoods, lasting upholstery, environment-safe finishing.</p>
+            </div>
+            <div class="value">
+              <strong>Custom Orders</strong>
+              <p>Custom sizes & finishes available. Tell us your vision — we build it.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Contact -->
+      <section id="contact" class="section contact">
+        <div class="container">
+          <h3 class="section-title">Contact / Visit Us</h3>
+          <div class="contact-grid">
+            <div>
+              <p>📍 <strong>Location:</strong> 5F_214 Awas Vikas Hanshpuram Naubasta Machariya, Kanpur Nagar, Uttar Pradesh</p>
+              <p>📞 <strong>Phone:</strong> +91 6389469197</p>
+              <p>📧 <strong>Email:</strong> mofaheem2007@gmail.com</p>
+            </div>
+            <form id="contactForm"
+      class="contact-form"
+      action="https://formsubmit.co/mofaheem2007@gmail.com"
+      method="POST">
+
+  <input type="text" name="name" placeholder="Your name" required />
+  <input type="Number" name="Number" placeholder="Mobile Number">
+  <input type="email" name="email" placeholder="Email address" required />
+  <textarea name="message" placeholder="How can we help?" rows="4" required></textarea>
+
+  <input type="hidden" name="_captcha" value="false">
+
+  <button class="btn-primary" type="submit">Send Message</button>
+</form>
+
+          </div>
+        </div>
+      </section>
+    </main>
+<script>
+function buyNow(productName) {
+  // Aapka WhatsApp number (91 = India code + aapka number)
+  const phoneNumber = "917080353222";  
+  const message = `Hi, I am interested in buying the ${productName}. Please share more details.`;  
+  
+  // WhatsApp link generate
+  const url = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
+  
+  // Open WhatsApp
+  window.open(url, "_blank");
+}
+</script>
+    <!-- Footer -->
+    <footer class="site-footer">
+      <div class="container">
+        <p>© <span id="year"></span> MALKA & SONS — All rights reserved.</p>
+      </div>
+    </footer>
+  </div>
+  <a href="https://wa.me/916389469197?text=Hello%20Jamaluddin%20bhai%20mai%20aapki%20website%20se%20contact%20kar%20raha%20hoon"
+   class="whatsapp-float pulse"
+   target="_blank">
+   <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg"
+        alt="WhatsApp Chat">
+</a>
+
+  <script src="script.js"></script>
+  <script>
+  document.getElementById("contactForm").addEventListener("submit", function(e) {
+    e.preventDefault();
+    
+    fetch(this.action.replace(".co/", ".co/ajax/"), {
+      method: "POST",
+      body: new FormData(this)
+    });
+    
+    this.reset();
+  });
+</script>
+</body>
+  </html>
